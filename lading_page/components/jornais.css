@@ -1,0 +1,24 @@
+/*JORNAIS ENCONTRADOS NO APP*/
+
+.jornais{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 15px;
+    background-color: #F0F3F8;
+    padding-top: 6%;
+    font-size: max(10px, 1.8vw);    
+    color: #642c93;
+    text-align: center;
+    box-shadow: black;     
+    font-weight: 900;
+}
+
+.imagens_jornais{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;    
+}

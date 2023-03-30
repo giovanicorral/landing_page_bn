@@ -1,0 +1,83 @@
+/*REDES SOCIAIS*/
+
+.redes{
+    width: 100%;    
+    background-color: black;  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      
+}
+
+.textoredes{
+    width: 100%;
+    padding: 60px 0px;
+    font-size: max(20px, 2.5vw);    
+    letter-spacing: 0.30ch;
+    text-align: center;        
+    font-weight: 900;
+}
+.iconesredes{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+    
+.iconesredes a{
+    width: 100%;    
+    display: flex;
+    justify-content: center;                
+    align-items: center;    
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    transition: all 0.5s ease 0s;    
+}
+.iconesredes a:hover{
+    background-color: #65ffc0;    
+}
+
+.iconesredes a img{
+    width: 78px;
+    height: 78px;
+    margin: 30%;
+}
+
+/*RODAPÉ*/
+
+.rodape{
+    background-color: #3B3B3B;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.rodape section a{
+    color: white;   
+    text-decoration: none;
+    font-size: max(8px, 1vw);     
+}
+
+.rodape section a:hover{
+    color: #65ffc0
+}
+
+.suporte h2{
+    margin: 10px 0px;
+}
+
+.suporte a{
+    margin: 50px 0px;
+}
+
+.transparencia h2{
+    margin: 10px 0px;
+}
+
+.baixarapp h2{ 
+    margin: 10px 0px;
+    text-align: center; 
+}

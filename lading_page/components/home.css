@@ -1,0 +1,110 @@
+/*HOME*/
+
+.home{
+    width: 100%;    
+    padding: 12% 40px 7% 40px;
+    background-color: #B2FFE0;
+    display: flex;
+    flex-direction: row;    
+    align-content: normal;
+    justify-content: center;    
+}
+
+.home h2{  
+    padding: 5px;
+    margin:15px;
+    box-shadow: black;    
+}
+
+.home p{
+    color: #000;
+    padding-top: 19px; 
+    font-size: max(10px, 1.8vw); 
+    margin:15px;
+    padding: 5px;
+    line-height: 23px;
+    letter-spacing: 0.20em;
+    box-shadow: black;
+    font-weight: 900;
+}
+
+aside h2{
+    color: #642C93;    
+    font-weight: 900;
+    padding: 15px;
+    font-size: max(40px, 5.5vw);  
+    text-shadow: 0px 3px 5px grey;
+    font-weight: 900;
+    
+}
+
+/*FORMULARIO*/
+
+.container{
+    background: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    flex-direction:column; 
+    display: flex;
+    width: 520px;
+    padding-top:10px;    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#subtitulo{    
+    line-height: 0.97;
+    text-align: center;
+    font-size: max(7px, 1.5vw); 
+    font-weight: bold;
+    justify-content: center;
+    font-size: 1.5vw;
+    color:#000;
+}
+
+.container p{
+    text-align: center;         
+    line-height: 0.97;
+}
+
+.container input{
+    margin-top: 8px;
+    height: 14px;
+    padding: 15px;
+    border-radius: 13px;
+    font-size: max(5px, 1vw); 
+    background-color: #F0F3F8;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.formulario form [type="submit"]{
+    height: 55px;
+    width: 98%;
+    background-color: rgb(132, 14, 201);
+    font-size: max(8px, 1.5vw); 
+    color: white;
+    font-weight: bold;
+    align-items: center;   
+}
+
+.formulario form [type="submit"]:hover{
+    background-color: rgb(110, 59, 139);
+}
+
+.container label{
+    margin-top:10px;
+    padding-left: 10px; 
+    font-weight: 900;  
+    line-height: 0.97;
+}
+
+.checkbox label{
+    color:rgb(7, 7, 7); 
+    padding-left: 10px;
+}
+
+.checkbox span{
+    color: #642C93;
+    box-shadow: black;
+}
+

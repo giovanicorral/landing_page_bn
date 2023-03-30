@@ -1,0 +1,38 @@
+/*MISSÃO, SOBRE NÓS*/
+
+.sobre_nos{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 15px;
+    background-color: white;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black;        
+}
+.chamada_sobre_nos{
+    width: 70%;
+    padding-left: 40px;
+}
+.chamada_sobre_nos h2{
+    font-size: max(10px, 2vw);
+    letter-spacing: 0.25ch;
+    padding-bottom: 3%;
+    font-weight: 900;
+}
+
+.chamada_sobre_nos h1{
+    font-size: max(30px, 3vw);
+    letter-spacing: 0.25ch;
+    color: #642c93;
+    font-weight: bolder;
+    font-weight: 900;   
+}
+
+.video_demonstracao{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

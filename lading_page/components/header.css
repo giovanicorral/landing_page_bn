@@ -1,0 +1,47 @@
+/*CABEÇALHO*/
+
+header{
+    width: 100%;
+    padding-right: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    position: fixed;
+    top: 0;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+header ul a{
+    color:#642C93;
+}
+
+header ul a:hover{
+    color: #c9c9c9;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #642C93;
+    color: white;
+}
+
+

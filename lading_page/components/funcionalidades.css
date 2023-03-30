@@ -1,0 +1,73 @@
+/*FUNCIONALIDADES*/
+
+.funcionalidades{
+    width: 100%;
+    padding: 1% 40px 1% 40px;
+    background-color: #ECFFF8;
+}
+
+.saiba{   
+    padding-left: 40px;
+    padding-top: 3%;
+    padding-bottom: 100px;;
+    letter-spacing: 0.40ch;
+    font-size: max(30px, 3vw);      
+    background-color: #ECFFF8;    
+}
+
+.saiba h1{    
+    font-weight: 900;
+    box-shadow: black;
+}
+
+.saiba span{
+    color: #642c93;
+}
+
+.celular{    
+    padding-left: 160px;
+    padding-right: 50px;
+    margin-bottom: -1.1%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*FUNÇÕES ENCONTRADAS NO APP*/
+
+.itensfuncionalidades{   
+    background-color: #ECFFF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explicacao_funcionalidades{      
+    width: 70%;  
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: max(8px, 1.5vw); 
+    text-align: left;
+    background-color: white;
+    border-radius: 40px;    
+}
+
+.explicacao_funcionalidades ul li{
+    display: flex;
+    justify-content: left;        
+    align-items: center;
+}
+
+.explicacao_funcionalidades ul li img{
+    margin: 2%;
+}
+.explicacao_funcionalidades ul li p{
+    padding-left: 20px;
+    font-size: 1.25vw;    
+}
+
+.explicacao_funcionalidades h2{    
+    padding: 2%;
+    margin-top: -3%;
+    font-size: 1.25vw;
+    text-align: end;
+}
