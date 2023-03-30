@@ -5,7 +5,7 @@
     padding-right: 40px;
     padding-left: 15px;
     background-color: #F0F3F8;
-    padding-top: 6%;
+    padding-top: 7%;
     font-size: max(10px, 1.8vw);    
     color: #642c93;
     text-align: center;
@@ -20,5 +20,29 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    flex-flow: wrap;    
+    
 }
+
+.jornais {
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .imagens_jornais {
+    animation: carrossel 10s linear infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+  
+  .imagens_jornais > img {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  
+  @keyframes carrossel {
+    0%    { left: 0; }
+    100%  { left: -100%; }
+  }
